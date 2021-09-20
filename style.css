@@ -1,0 +1,30 @@
+.line{
+    background-color: #21201e; height:8px;
+}
+#TomsArticle{
+    position: relative;
+}
+#Warning{
+    float:right;
+    border: solid;
+    border-color: #21201e;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    line-height: 100px;
+
+}
+
+input[value="gold"]:checked+label{
+font-style: italic;
+color: #FFD700;
+}
+input[value="blue"]:checked+label{
+    font-style: italic;
+    color: #87CEEB;
+}
+input[value="green"]:checked+label{
+    font-style: italic;
+    color: #50C878;
+}
