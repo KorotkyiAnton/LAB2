@@ -1,13 +1,13 @@
-.line{
-    background-color: #21201e; height:8px;
+.content_block{
+    border-bottom: 4px solid;
+    border-color:  #21201e;
 }
-#TomsArticle{
-    position: relative;
-}
+
 #Warning{
     float:right;
-    border: solid;
-    border-color: #21201e;
+    background-color: #21201e;
+    width: 25%;
+    text-align: center;
 }
 section{
     display: flex;
